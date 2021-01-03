@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title></title>
+        <meta charset="utf-8"/>
+        <script type="text/javascript" src="js/02-function-onclick.js"></script>
+    </head>
+    <body onload="load()">
+        <h2><u>Learning JavaScript:</u> Functions</h2>
+        <p>
+            <ul>
+                <li><b>OnClick:</b>
+                    <table>
+                        <tr>
+                            <td><button type="button" onclick="button_click()">Clique aqui</button></td>
+                            <td id="msgGetElement"></td>
+                        </tr>                        
+                    </table>
+                    <br/>
+                </li>
+                <li><b>Redirect:</b>
+                    <table>
+                        <tr>
+                            <td><button type="button" onclick="button_redirect()">Ir para ...</button></td>
+                            <td id="msgGetElement"></td>
+                        </tr>                        
+                    </table>
+                    <br/>
+                </li>  
+                <li><b>OnMouseOver and OnMouseOut:</b>
+                    <table>
+                        <tr>
+                            <td onmouseover="mouse_over(this)" onmouseout="mouse_out(this)"><u>Passe o mouse aqui.</u></td>
+                            <td></td>
+                        </tr>                        
+                    </table>
+                    <br/>
+                </li>                               
+                <li><b>Onchange:</b>
+                    <table>
+                        <tr>
+                            <td>
+                                <select onchange="select_onchange(this)">
+                                    <option value="1">Valor 1</option>
+                                    <option value="2">Valor 2</option>
+                                    <option value="3">Valor 3</option>
+                                </select>
+                            </td>
+                            <td id="msgSelectValue"></td>
+                        </tr>                        
+                    </table>
+                    <br/>
+                </li>                  
+            </ul>            
+        </p>
+        <p>
+            
+        </p>
+    </body>
+</html>
